@@ -49,7 +49,7 @@ void Point::displayxy()
 
 int main()
 {
-	Point p1(3,4),p2[2]={5,6},p3;
+	Point p1=Point(3,4),p2[2]={Point(5,6),Point(7)},p3=Point();
 	cout<<endl;
 	//创建对象p1时调用有两个参数的构造函数
 	//对象p2为对象数组，每个数组元素被创建时都要调用构造函数
