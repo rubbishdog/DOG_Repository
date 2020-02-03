@@ -49,7 +49,8 @@ Whole::~Whole()
 
 int main()
 {
-	Whole w=Whole(3); 
+	Whole* w=new Whole(3);  //调用构造函数 
+	delete w; //调用析构函数 
 	return 0;
 }
 
